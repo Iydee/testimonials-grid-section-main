@@ -44,6 +44,7 @@ body {
   grid-column: 3;
   grid-row: 1;
   background-color: hsl(217, 19%, 35%);
+  background-image: ;
 }
 
 .item3 {
@@ -70,8 +71,6 @@ body {
 .item5 span {
   color: black;
 }
-
-
 
 #specimen h2 {
   color: black;
@@ -110,9 +109,24 @@ img {
   color: hsl(0, 0%, 81%);
   padding-left: 45px;
   font-size: 12px;
-
 }
 
 #img-package span {
   color: black;
+}
+
+svg {
+  float: right;
+  position: relative;
+  padding-right: 55px;
+  margin-top: -58px;
+}
+
+#quotation h2 {
+  position: absolute;
+  margin-top: 13px;
+}
+
+#quotation p {
+  position: relative;
 }
