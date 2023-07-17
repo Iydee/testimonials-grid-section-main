@@ -1,0 +1,118 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: BarlowSemiCondensed-Regular;
+  src: url(font/BarlowSemiCondensed-Regular.ttf);
+}
+
+body {
+  font-family: BarlowSemiCondensed-Regular;
+  background-color: hsl(210, 46%, 95%);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  height: auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  background-color: hsl(263, 55%, 52%);
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.item3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.item3 span {
+  color: black;
+}
+
+.item4 {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+  background-color: hsl(219, 29%, 14%);
+}
+
+.item5 {
+  grid-column: 4;
+  grid-row: 1 / span 2;
+  background-color: white;
+}
+
+.item5 span {
+  color: black;
+}
+
+
+
+#specimen h2 {
+  color: black;
+}
+
+p {
+  color: hsl(0, 0%, 81%);
+  font-size: 15px;
+  line-height: 1;
+}
+
+h2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.img-container {
+  margin-top: auto;
+}
+
+img {
+  float: left;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  margin-top: -1px;
+}
+
+.img-container span {
+  color: white;
+}
+
+.img-container p {
+  color: hsl(0, 0%, 81%);
+  padding-left: 45px;
+  font-size: 12px;
+
+}
+
+#img-package span {
+  color: black;
+}
